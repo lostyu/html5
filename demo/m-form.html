@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>m-form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="../favicon.ico"/>
+
+    <link rel="stylesheet" href="../_asset/css/main.css">
+    <link rel="stylesheet" href="demo.css">
+    <script src="../_asset/js/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]><![endif]-->
+
+
+<div class="g-container">
+
+    <form action="" class="m-form m-form-x j-validate3">
+        <fieldset>
+            <legend><h2>产品基本信息</h2></legend>
+            <div class="formitem">
+                <label class="lab">产品名称</label>
+                <div class="ipt">
+                    <input name="uform1" class="u-ipt u-ipt-w" type="text" placeholder="如：PU女士手提包" data-rule-required="true">
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">产品型号</label>
+                <div class="ipt">
+                    <input name="uform2" class="u-ipt" type="text" data-rule-required="true">
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">产品图片</label>
+                <div class="ipt">
+                    <label class="u-radio"><input type="radio"> 上传单张图片</label>
+                    <label class="u-radio"><input type="radio"> 上传多张图片</label>
+                    <span class="help">你已提交10个产品图，还可以提交0个</span>
+                    <div class="f-mt10">
+                        <a class="u-btn u-btn-default2" href="javascript:;">本地上传</a>
+                        <a class="u-btn u-btn-default2" href="javascript:;">从图片库选取</a>
+                    </div>
+                    <p class="help">
+                        最多添加10个图片产品，没个图片产品最多展示6张图片<br>
+                        jpg或png格式，不超过300k
+                    </p>
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">关键词</label>
+                <div class="ipt">
+                    <input class="u-ipt f-mr10" type="text" placeholder="如：PU女士手提包"><a href="javascript:;">关键词建议</a>
+                    <div class="f-mt10">
+                        <a href="javascript:;">+ 添加更多关键词</a>
+                    </div>
+                    <p class="help">请在每个文本框输入一个用于描述你产品的关键词，并控制在48个字符以内。</p>
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">产品类别</label>
+                <div class="ipt">
+                    <a class="u-btn u-btn-default2 f-mr10" href="javascript:;">选择目录</a>
+                    <span class="help">找不到想要的目录？<a href="javascript:;">点这里</a></span>
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">产品分组</label>
+                <div class="ipt">
+                    <select class="u-select">
+                        <option value="-1">请选择产品组</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                    </select>
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">产品描述</label>
+                <div class="ipt">
+                    <textarea class="u-textarea" rows="5"></textarea>
+                    <p class="help">最多100个产品，每个产品可以插入3张图片</p>
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>产品贸易</h2> <span class="help">详细填写你的报价，让其更容易被买家关注</span></legend>
+            <div class="formitem form-inline">
+                <label class="lab">最小起订量</label>
+                <div class="ipt">
+                    <div class="form-group f-mr20">
+                        <input class="u-ipt f-mr10" type="text">
+                        <select class="u-select">
+                            <option value="0">个</option>
+                            <option value="1">箱</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>FOB价格（USD）</label>
+                        <input class="u-ipt f-mr10" type="text">
+                        <select class="u-select">
+                            <option value="0">个</option>
+                            <option value="1">箱</option>
+                        </select>
+                    </div>
+
+                    <div class="f-mt10">
+                        <a href="javascript:;">+ 添加价格区间</a>
+                    </div>
+
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">港口</label>
+                <div class="ipt">
+                    <input class="u-ipt u-ipt-w" type="text">
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+            <div class="formitem">
+                <label class="lab">支付方式</label>
+                <div class="ipt">
+                    <label class="u-checkbox"><input type="checkbox"> L/C</label>
+                    <label class="u-checkbox"><input type="checkbox"> T/T</label>
+                    <label class="u-checkbox"><input type="checkbox"> D/P</label>
+                    <label class="u-checkbox"><input type="checkbox"> Paypal</label>
+                    <label class="u-checkbox"><input type="checkbox"> Money Gram</label>
+                    <label class="u-checkbox"><input type="checkbox"> Westem Union</label>
+                    <label class="u-checkbox"><input type="checkbox"> Others</label>
+                    <div class="errorTips2"></div>
+                </div>
+            </div>
+
+
+        </fieldset>
+
+        <div class="formitem line">
+            <div class="ipt">
+                <input class="u-btn u-btn-default u-btn-w" type="button" value="取消">
+                <input class="u-btn u-btn-primary u-btn-w" type="submit" value="提交">
+            </div>
+        </div>
+    </form>
+
+
+</div>
+
+
+<script src="../_asset/js/jquery-1.12.0.min.js"></script>
+<!-- plugin -->
+<script src="../_asset/js/plugin/jquery-validation/jquery.validate.min.js"></script>
+<script src="../_asset/js/plugin/jquery-validation/localization/messages_zh.min.js"></script>
+<!-- /plugin -->
+<script src="../_asset/js/plugins.js"></script>
+<script src="../_asset/js/main.js"></script>
+</body>
+</html>

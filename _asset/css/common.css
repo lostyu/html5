@@ -1,0 +1,61 @@
+/* 站点重置 */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  color: #333333;
+}
+a {
+  color: #225378;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+/* 通用样式 */
+.f-fs12 {
+  font-size: 12px;
+}
+.f-fs14 {
+  font-size: 14px;
+}
+.f-fs16 {
+  font-size: 16px;
+}
+.f-fs18 {
+  font-size: 18px;
+}
+.f-mr5 {
+  margin-right: 5px;
+}
+.f-mr10 {
+  margin-right: 10px;
+}
+.f-mr20 {
+  margin-right: 20px;
+}
+.f-mt10 {
+  margin-top: 10px;
+}
+.f-mb20 {
+  margin-bottom: 20px;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #225378;
+}
+.text-success {
+  color: #1695a3;
+}
+.text-info {
+  color: #4fedf2;
+}
+.text-warning {
+  color: #eb7f00;
+}
+.text-danger {
+  color: #cf3b13;
+}

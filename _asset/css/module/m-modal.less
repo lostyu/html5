@@ -1,0 +1,47 @@
+@import "../var.less";
+
+// 弹窗
+.m-modal{
+  position: fixed;
+  left:0;
+  right: 0;
+  top:0;
+  bottom:0;
+  background-color: rgba(0,0,0,.5);
+
+  .wrap{
+    position: absolute;
+    left:0;
+    right: 0;
+    top:25%;
+    margin:auto;
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    font-size:16px;
+    *{
+      //transform: scale(.5);
+    }
+  }
+  .title{
+    font-size:20px;
+    font-weight:bold;
+  }
+  .content{
+    margin-top:20px;
+    padding:20px 0;
+  }
+  .control{
+    margin-top:20px;
+    text-align: right;
+    a{
+      margin-left:20px;
+    }
+  }
+  .close{
+    position: absolute;
+    top:10px;
+    right:10px;
+    font-size:12px;
+  }
+}
